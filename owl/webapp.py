@@ -257,6 +257,7 @@ MODULE_DESCRIPTIONS = {
     "run_ppio": "Using ppio model to process tasks",
     "run_together_ai": "Using together ai model to process tasks",
     "run_novita_ai": "Using novita ai model to process tasks",
+    "run_burncloud": "Using Burncloud AI platform with Claude-4, GPT-4o, Gemini-2.5-Pro, DeepSeek-R1 and other industry-leading models",
 }
 
 
@@ -282,6 +283,11 @@ QWEN_API_KEY='Your_Key'
 
 # DeepSeek API (https://platform.deepseek.com/api_keys)
 DEEPSEEK_API_KEY='Your_Key'
+
+# Burncloud API (https://ai.burncloud.com/)
+BURNCLOUD_API_KEY='Your_Key'
+# BURNCLOUD_MODEL='claude-sonnet-4-20250514'  # Default model
+# BURNCLOUD_VISION_MODEL='claude-3-5-sonnet-20241022'  # Vision model for image/video analysis
 
 #===========================================
 # Tools & Services API
